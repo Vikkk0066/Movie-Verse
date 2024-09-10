@@ -1,0 +1,106 @@
+.Nav{
+    display: flex;
+      position: fixed;
+    width: 100%;
+    height: 56px;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    transition: all 0.5s;
+    z-index: 1;
+    /* margin-left: 29px; */
+ }
+ .Nav_black{
+   background-color: rgba(19, 18, 18, 0.877);
+ 
+ }
+ .Nav .logo_in_Navbar_front{
+  object-fit: cover;
+  max-height: 50px;
+  width: 163px;
+  /* margin-left: 25px; */
+ }
+ .logout{
+  /* position: absolute; */
+  cursor: pointer;
+    border: none;
+    border-radius: 39px;
+    background-color: #f88e18;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+ }
+ .Sign_in{
+  position: relative;
+    right: 35px;
+    cursor: pointer;
+    border: none;
+    border-radius: 39px;
+    padding: 0px;
+   background-color: none;
+}
+
+ 
+ .Nav_front{
+     position: relative;
+     width: auto;
+       /* border: 2px solid red; */ 
+ }
+ .pass_Sign{
+        right: 19px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        width: 80px;
+        color: black;
+        border-radius: 2px;
+        padding: 7px;
+        text-align: center;
+        font-size: 26px;
+        text-decoration: none;
+        font-weight: 600;
+ 
+ }
+ .avatar_user_login{
+  width: 55px;
+  
+ }
+ 
+ .details_home{
+  position: inherit;
+    top: 59px;
+    right: 1px;
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 265px;
+    /* border: 2px solid red; */
+    justify-content: center;
+    background-color: rgb(6, 6, 6);
+ }
+ .details_child{
+    text-align: justify;
+    /* border: 2px solid red; */
+    margin: 5px;
+    padding: 2px;
+    font-size: 20px;
+ }
+ .user_avatar_show{
+  width: 40px;
+  height: 35px;
+  margin-right: 12px;
+ }
+ .user_name{
+  position: absolute;
+  top: 25px;
+ }
+
+ /* @media (max-width:700px){
+   .pass_Sign,
+   .Sign_in {
+     right:40px;
+   }
+ } */
+ 
+ 
